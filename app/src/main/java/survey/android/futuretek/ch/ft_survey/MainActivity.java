@@ -89,7 +89,7 @@ public class MainActivity extends BaseActivity {
                         textArray.add("Didn't get your name...");
                         animateText(textArray, new AnimationListDone() {
                             public void done() {
-                                activateNextButton();
+                              //  activateNextButton();
                             }
                         });
                     } else {
